@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.doc\shell\Convert to PDF]
+@="Convert to PDF"
+"Icon"="C:\\Program Files\\Docx2Pdf\\Docx2Pdf.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.doc\shell\Convert to PDF\command]
+@="\"C:\\Program Files\\Docx2Pdf\\Docx2Pdf.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.docx\shell\Convert to PDF]
+@="Convert to PDF"
+"Icon"="C:\\Program Files\\Docx2Pdf\\Docx2Pdf.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.docx\shell\Convert to PDF\command]
+@="\"C:\\Program Files\\Docx2Pdf\\Docx2Pdf.exe\" \"%1\""
+

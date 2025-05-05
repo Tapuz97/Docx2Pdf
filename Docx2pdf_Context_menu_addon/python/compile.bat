@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --icon=icon.ico --hidden-import=comtypes --hidden-import=comtypes.client --hidden-import=comtypes.stream Docx2Pdf.py
